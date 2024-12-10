@@ -1,0 +1,94 @@
+2024-12-09 20:29:42,532 - CRITICAL - [Errno 2] No such file or directory: 'usuarios.json'
+2024-12-09 20:29:42,540 - CRITICAL - Traceback (most recent call last):
+  File "c:\Users\luvil\OneDrive\Documentos\LUCIA\FINALREGULAR\main.py", line 23, in cargar_usuarios
+    with open(archivo, "r") as f:
+         ~~~~^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'usuarios.json'
+
+2024-12-09 20:30:04,276 - CRITICAL - [Errno 2] No such file or directory: 'calendario.json'
+2024-12-09 20:30:04,277 - CRITICAL - Traceback (most recent call last):
+  File "c:\Users\luvil\OneDrive\Documentos\LUCIA\FINALREGULAR\main.py", line 490, in cargar_calendario
+    with open(archivo_calendario, "r") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'calendario.json'
+
+2024-12-09 20:30:25,262 - CRITICAL - [Errno 2] No such file or directory: 'clientes.json'
+2024-12-09 20:30:25,263 - CRITICAL - Traceback (most recent call last):
+  File "c:\Users\luvil\OneDrive\Documentos\LUCIA\FINALREGULAR\main.py", line 92, in cargar_clientes
+    with open(archivo, "r") as f:
+         ~~~~^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'clientes.json'
+
+2024-12-09 20:31:25,876 - CRITICAL - [Errno 2] No such file or directory: 'clientes.json'
+2024-12-09 20:31:25,877 - CRITICAL - Traceback (most recent call last):
+  File "c:\Users\luvil\OneDrive\Documentos\LUCIA\FINALREGULAR\main.py", line 92, in cargar_clientes
+    with open(archivo, "r") as f:
+         ~~~~^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'clientes.json'
+
+2024-12-09 20:45:53,644 - ERROR - invalid literal for int() with base 10: '& C:/Users/luvil/AppData/Local/Programs/Python/Python313/python.exe c:/Users/luvil/OneDrive/Documentos/LUCIA/FINALREGULAR/test.py'
+2024-12-09 20:45:53,651 - ERROR - Traceback (most recent call last):
+  File "c:\Users\luvil\OneDrive\Documentos\LUCIA\FINALREGULAR\main.py", line 56, in autenticar_usuario
+    dni_usuario = int(input("Ingresa tu ID: "))
+ValueError: invalid literal for int() with base 10: '& C:/Users/luvil/AppData/Local/Programs/Python/Python313/python.exe c:/Users/luvil/OneDrive/Documentos/LUCIA/FINALREGULAR/test.py'
+
+2024-12-09 20:46:46,422 - ERROR - invalid literal for int() with base 10: '& C:/Users/luvil/AppData/Local/Programs/Python/Python313/python.exe c:/Users/luvil/OneDrive/Documentos/LUCIA/FINALREGULAR/test.py'
+2024-12-09 20:46:46,443 - ERROR - Traceback (most recent call last):
+  File "c:\Users\luvil\OneDrive\Documentos\LUCIA\FINALREGULAR\main.py", line 56, in autenticar_usuario
+    dni_usuario = int(input("Ingresa tu ID: "))
+ValueError: invalid literal for int() with base 10: '& C:/Users/luvil/AppData/Local/Programs/Python/Python313/python.exe c:/Users/luvil/OneDrive/Documentos/LUCIA/FINALREGULAR/test.py'
+
+2024-12-10 12:08:18,678 - ERROR - invalid literal for int() with base 10: 'M'
+2024-12-10 12:08:18,721 - ERROR - Traceback (most recent call last):
+  File "c:\Users\luvil\OneDrive\Documentos\LUCIA\FINALREGULAR\main.py", line 56, in autenticar_usuario
+    dni_usuario = int(input("Ingresa tu ID: "))
+ValueError: invalid literal for int() with base 10: 'M'
+
+2024-12-10 12:11:30,584 - ERROR - invalid literal for int() with base 10: '& C:/Users/luvil/AppData/Local/Programs/Python/Python313/python.exe c:/Users/luvil/OneDrive/Documentos/LUCIA/FINALREGULAR/main.py'
+2024-12-10 12:11:30,606 - ERROR - Traceback (most recent call last):
+  File "c:\Users\luvil\OneDrive\Documentos\LUCIA\FINALREGULAR\main.py", line 56, in autenticar_usuario
+    dni_usuario = int(input("Ingresa tu ID: "))
+ValueError: invalid literal for int() with base 10: '& C:/Users/luvil/AppData/Local/Programs/Python/Python313/python.exe c:/Users/luvil/OneDrive/Documentos/LUCIA/FINALREGULAR/main.py'
+
+2024-12-10 12:11:32,308 - ERROR - invalid literal for int() with base 10: '& C:/Users/luvil/AppData/Local/Programs/Python/Python313/python.exe c:/Users/luvil/OneDrive/Documentos/LUCIA/FINALREGULAR/main.py'
+2024-12-10 12:11:32,309 - ERROR - Traceback (most recent call last):
+  File "c:\Users\luvil\OneDrive\Documentos\LUCIA\FINALREGULAR\main.py", line 56, in autenticar_usuario
+    dni_usuario = int(input("Ingresa tu ID: "))
+ValueError: invalid literal for int() with base 10: '& C:/Users/luvil/AppData/Local/Programs/Python/Python313/python.exe c:/Users/luvil/OneDrive/Documentos/LUCIA/FINALREGULAR/main.py'
+
+2024-12-10 12:15:32,583 - ERROR - invalid literal for int() with base 10: 'KSLSKLSK'
+2024-12-10 12:15:32,595 - ERROR - Traceback (most recent call last):
+  File "c:\Users\luvil\OneDrive\Documentos\LUCIA\FINALREGULAR\main.py", line 56, in autenticar_usuario
+    dni_usuario = int(input("Ingresa tu ID: "))
+ValueError: invalid literal for int() with base 10: 'KSLSKLSK'
+
+2024-12-10 12:15:40,444 - ERROR - invalid literal for int() with base 10: '9K9K9K9K'
+2024-12-10 12:15:40,445 - ERROR - Traceback (most recent call last):
+  File "c:\Users\luvil\OneDrive\Documentos\LUCIA\FINALREGULAR\main.py", line 56, in autenticar_usuario
+    dni_usuario = int(input("Ingresa tu ID: "))
+ValueError: invalid literal for int() with base 10: '9K9K9K9K'
+
+2024-12-10 12:16:50,855 - ERROR - time data '& C:/Users/luvil/AppData/Local/Programs/Python/Python313/python.exe c:/Users/luvil/OneDrive/Documentos/LUCIA/FINALREGULAR/main.py' does not match format '%Y-%m-%d'
+2024-12-10 12:16:50,915 - ERROR - Traceback (most recent call last):
+  File "c:\Users\luvil\OneDrive\Documentos\LUCIA\FINALREGULAR\main.py", line 312, in validar_fechas
+    fecha_entrada = datetime.strptime(fecha_entrada, "%Y-%m-%d")
+  File "C:\Users\luvil\AppData\Local\Programs\Python\Python313\Lib\_strptime.py", line 676, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+                                    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\luvil\AppData\Local\Programs\Python\Python313\Lib\_strptime.py", line 455, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+                     (data_string, format))
+ValueError: time data '& C:/Users/luvil/AppData/Local/Programs/Python/Python313/python.exe c:/Users/luvil/OneDrive/Documentos/LUCIA/FINALREGULAR/main.py' does not match format '%Y-%m-%d'
+
+2024-12-10 12:21:14,525 - ERROR - time data '& C:/Users/luvil/AppData/Local/Programs/Python/Python313/python.exe c:/Users/luvil/OneDrive/Documentos/LUCIA/FINALREGULAR/main.py' does not match format '%Y-%m-%d'
+2024-12-10 12:21:14,536 - ERROR - Traceback (most recent call last):
+  File "c:\Users\luvil\OneDrive\Documentos\LUCIA\FINALREGULAR\main.py", line 312, in validar_fechas
+    fecha_entrada = datetime.strptime(fecha_entrada, "%Y-%m-%d")
+  File "C:\Users\luvil\AppData\Local\Programs\Python\Python313\Lib\_strptime.py", line 676, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+                                    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\luvil\AppData\Local\Programs\Python\Python313\Lib\_strptime.py", line 455, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+                     (data_string, format))
+ValueError: time data '& C:/Users/luvil/AppData/Local/Programs/Python/Python313/python.exe c:/Users/luvil/OneDrive/Documentos/LUCIA/FINALREGULAR/main.py' does not match format '%Y-%m-%d'
+
